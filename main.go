@@ -57,6 +57,8 @@ func handlerRss(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	addr := flag.String("addr", "127.0.0.1:28081", "bind addrress, example: 127.0.0.1:28081")
+	flag.Parse()
+
 	http.Handle("/", http.FileServer(http.Dir("html/")))
 	http.HandleFunc("/rss/", handlerRss)
 	log.Printf("start bind: " + *addr)
