@@ -28,3 +28,6 @@ $ ./txt2rss -addr=127.0.0.1:28081
 usage this tool with pkrss: https://sourceforge.net/projects/pkrss/
 add http://127.0.0.1:28081/rss/?file=1 to your custom rss source, then listen and see lyric in windows.
 
+*** blogs ***
+
+https://blogs.pkstate.com/2018/11/txt2rss-software-publish.html
